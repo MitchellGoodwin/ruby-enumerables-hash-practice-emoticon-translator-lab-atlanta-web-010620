@@ -9,12 +9,13 @@ def load_library(path)
     result["get_meaning"][emote[1]] = meaning
     result["get_emoticon"][emote[0]] = emote[1]
   end
-  print result
+  #print result
   result
 end
 
 def get_japanese_emoticon
   # code goes here
+  
 end
 
 def get_english_meaning
